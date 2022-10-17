@@ -32,6 +32,5 @@ jobs:
       #     Get-Process
 
       - name: Hello World
-        shell: pwsh
         run: |
-          .\helloworld.ps1
+          powershell.exe -version 5 .\helloworld.ps1
