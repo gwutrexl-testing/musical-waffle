@@ -33,4 +33,4 @@ jobs:
 
       - name: Hello World
         run: |
-          powershell.exe -version 5 .\helloworld.ps1
+          pwsh.exe -version 5 .\helloworld.ps1
