@@ -31,6 +31,10 @@ jobs:
       #     $psversiontable
       #     Get-Process
 
-      - name: Hello World
+      - name: Hello World PowerShell 5
         run: |
-          pwsh.exe -version 5 .\helloworld.ps1
+          powershell.exe -version 5 .\helloworld.ps1
+      - name: Hello World PowerShell 7
+        shell: pwsh
+        run: |
+          .\helloworld.ps1
