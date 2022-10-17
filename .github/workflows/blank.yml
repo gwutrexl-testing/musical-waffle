@@ -36,6 +36,6 @@ jobs:
           Get-Process
 
       - name: Hello World
-	shell: pwsh
-	run: |
-	  .\helloworld.ps1
+        shell: pwsh
+        run: |
+          .\helloworld.ps1
